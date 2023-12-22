@@ -7,7 +7,7 @@ export default function Navbar() {
     const [isNavOpen, setisNavOpen] = useState(false);
 
     const [scrollData, setScrollData] = useState({
-        y:0,
+        y: 0,
         lastY: 0
     });
     const [visible, setVisible] = useState(true);
@@ -35,24 +35,29 @@ export default function Navbar() {
     useEffect(() => {
         console.log(scrollData)
 
-        if(scrollData.y > 0) {
-            setVisible(true);
-        } else {
+        if(scrollData.y > 0 ) {
             setVisible(false);
+        } else {
+            setVisible(true);
         }
 
         if(scrollData.y < scrollData.lastY) {
-            setVisible(false);
-        } else {
             setVisible(true);
+        } else {
+            setVisible(false);
         }
 
+        if(scrollData.y == 0 &  scrollData.lastY == 0) {
+            setVisible(true);
+        }
     }, [scrollData])
 
+    
 
 
+    // MAYBE CHANGE THE OPACITY DEPENDING ON OTHER CONTENTS HERE VVVVVVV bg-opacity-20 ALSO FIGURE OUT THE TRANSITION FOR MOBILE DROPDOWN
     return (
-        <nav id="navbar" className={`bg-Midnight-Blue fixed w-full top-0 z-10 text-white ${visible ? 'hidden' : ''}`}>
+        <nav id="navbar" className={`bg-Midnight-Blue  fixed w-full top-0 z-10 text-white ${visible ? ' translate-y-0 transition-all duration-500 ease-in-out' : ' -translate-y-full transition-all duration-500 ease-in-out'}`}>
             <div className="max-w-64  py-2.5 text-xl md:text-2xl lg:text-2xl sm:text-xl">
                 <div className="flex justify-between">
                     <div className="ml-8">
@@ -92,7 +97,7 @@ export default function Navbar() {
                 </div>
 
                 {isNavOpen && (
-                    <div className="sm:hidden pl-8 border-t-2">
+                    <div className={`sm:hidden pl-8 border-t-2 transform`}>
                         <a href="#Home" className="block py-2">Home</a>
                         <a href="#AboutMe" className="block py-2">About Me</a>
                         <a href="#Skills" className="block py-2">Skills</a>
