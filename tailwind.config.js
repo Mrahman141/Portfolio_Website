@@ -15,6 +15,10 @@ module.exports = {
       height: {
         '128': '32rem',
       },
+      width: {
+        '128': '32rem',
+        '100': '27rem',
+      },
       colors: {
         'Midnight-Blue': '#0c0d2e',
         'Deep-Midnight-Blue': '#07081a',
