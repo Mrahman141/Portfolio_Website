@@ -1,19 +1,13 @@
 import Image from 'next/image'
+import Home from '@/components/Home/Home'
 
-export default function Home() {
+// ADD TRANSITIONS TO MAKE IT FEEL SMOOTH AND NICE
+
+
+export default function Main_Home() {
   return (
     <>
-      <div className="bg-Midnight-Blue">
-        <br />
-        <br />
-        <br />
-        <br />
-        <h1 className="text-3xl text-white">Home      (Midnight Blue)</h1>
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
+      <Home />
       <div className="bg-Deep-Midnight-Blue">
         <br />
         <br />

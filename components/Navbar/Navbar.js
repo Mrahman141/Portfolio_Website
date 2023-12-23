@@ -33,7 +33,7 @@ export default function Navbar() {
 
 
     useEffect(() => {
-        console.log(scrollData)
+        // console.log(scrollData)
 
         if(scrollData.y > 0 ) {
             setVisible(false);
@@ -57,7 +57,7 @@ export default function Navbar() {
 
     // MAYBE CHANGE THE OPACITY DEPENDING ON OTHER CONTENTS HERE VVVVVVV bg-opacity-20 ALSO FIGURE OUT THE TRANSITION FOR MOBILE DROPDOWN
     return (
-        <nav id="navbar" className={`bg-Midnight-Blue  fixed w-full top-0 z-10 text-white ${visible ? ' translate-y-0 transition-all duration-500 ease-in-out' : ' -translate-y-full transition-all duration-500 ease-in-out'}`}>
+        <nav id="navbar" className={`sm:border-none border-b-2 bg-Midnight-Blue  fixed w-full top-0 z-10 text-white ${visible ? ' translate-y-0 transition-all duration-500 ease-in-out' : ' -translate-y-full transition-all duration-500 ease-in-out'}`}>
             <div className="max-w-64  py-2.5 text-xl md:text-2xl lg:text-2xl sm:text-xl">
                 <div className="flex justify-between">
                     <div className="ml-8">
