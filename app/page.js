@@ -8,7 +8,7 @@ import About_me from '@/components/About Me/About_me'
 export default function Main_Home() {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       <About_me/>
       <div className="bg-Shadowy-Indigo">
         <br />

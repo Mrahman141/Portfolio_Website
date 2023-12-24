@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'small': '640px',
+
+        'laptop': '1080px',
+  
+        '24inch': '1920px',
+  
+        '27inch': '2560px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -14,10 +23,12 @@ module.exports = {
       },
       height: {
         '128': '32rem',
+        '75': '17rem',
       },
       width: {
         '128': '32rem',
         '100': '27rem',
+        '75': '17rem',
       },
       colors: {
         'Midnight-Blue': '#0c0d2e',
