@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Projects() {
     return (
@@ -17,9 +18,10 @@ export default function Projects() {
                                 <p className="text-base md:text-2xl lg:text-2xl xl:text-2xl">
                                     Human League, my debut game developed using Unreal Engine 5, showcases my initiation into game design. Executed in collaboration with a skilled group, this project highlights our collective ability to harness advanced technology for an immersive gaming experience.
                                 </p>
-                                <button className="text-base md:text-xl lg:text-xl xl:text-xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
-                                    Learn more
-                                </button>
+                                <Link href="/project/human_league" className="text-center text-base md:text-xl lg:text-xl xl:text-xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
+                                Learn More
+                                </Link>
+                                
                             </div>
                         </div>
                     </div>

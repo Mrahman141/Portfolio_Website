@@ -8,7 +8,7 @@ export default function Home() {
                 <div className="max-w-md mx-auto overflow-hidden md:max-w-full ">
                     <div className="md:flex justify-center items-center">
                         <div className="md:shrink-0">
-                            <img className="object-cover rounded-full md:h-128 md:w-128 lg:h-128 lg:w-128 " src="/Me.jpg" alt="Modern building architecture" />
+                            <img className="object-cover rounded-full md:h-128 md:w-128 lg:h-128 lg:w-128" src="/Me.jpg" alt="Mohammed Aminoor Rahman" />
                         </div>
                         <div className="p-8 text-white text-2xl md:text-3xl lg:text-4xl">
                             <p className="mt-2">Hi there! I'm Mohammed Aminoor Rahman, a Software Developer studying at Seneca Polytechnic.</p>
