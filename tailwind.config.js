@@ -10,7 +10,7 @@ module.exports = {
       screens: {
         'small': '640px',
 
-        'laptop': '1080px',
+        'laptop': '1440px',
   
         '24inch': '1920px',
   
