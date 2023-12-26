@@ -17,7 +17,7 @@ const pics = [
 ]
 
 
-export default function page() {
+export default function Page() {
 
     const router = useRouter();
 
@@ -73,7 +73,7 @@ export default function page() {
                         <li><strong>Unreal Engine:</strong> The foundation for game development, providing tools for designing maps, implementing actors and objects, creating animations, and managing user interfaces.</li>
                         <li><strong>Blueprints:</strong> Utilized for defining game logic, creating actors, and implementing various functionalities without the need for extensive coding.</li>
                         <li><strong>Animation:</strong> Mixamo is employed for collecting and downloading animations and character skins, enhancing the realism and movements of characters in the game.</li>
-                        <li><strong>User Interface:</strong> Designed using Unreal Engine's UI features, including menus for main, pause, and endgame scenarios, providing a seamless and intuitive user experience.</li>
+                        <li><strong>User Interface:</strong> Designed using Unreal Engine&apos;s UI features, including menus for main, pause, and endgame scenarios, providing a seamless and intuitive user experience.</li>
                         <li><strong>Artificial Intelligence:</strong> Implemented through behavior trees and sensing mechanisms, allowing AI-controlled characters (Defender and Goalkeeper) to exhibit dynamic and responsive behaviors during gameplay.</li>
                     </ul>
 
@@ -166,7 +166,7 @@ export default function page() {
                         <li><strong>Unreal Engine:</strong> The foundation for game development, providing tools for designing maps, implementing actors and objects, creating animations, and managing user interfaces.</li>
                         <li><strong>Blueprints:</strong> Utilized for defining game logic, creating actors, and implementing various functionalities without the need for extensive coding.</li>
                         <li><strong>Animation:</strong> Mixamo is employed for collecting and downloading animations and character skins, enhancing the realism and movements of characters in the game.</li>
-                        <li><strong>User Interface:</strong> Designed using Unreal Engine's UI features, including menus for main, pause, and endgame scenarios, providing a seamless and intuitive user experience.</li>
+                        <li><strong>User Interface:</strong> Designed using Unreal Engine&apos;s UI features, including menus for main, pause, and endgame scenarios, providing a seamless and intuitive user experience.</li>
                         <li><strong>Artificial Intelligence:</strong> Implemented through behavior trees and sensing mechanisms, allowing AI-controlled characters (Defender and Goalkeeper) to exhibit dynamic and responsive behaviors during gameplay.</li>
                     </ul>
 

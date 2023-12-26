@@ -11,7 +11,7 @@ export default function Home() {
                             <img className="object-cover rounded-full md:h-128 md:w-128 lg:h-128 lg:w-128" src="/Me.jpg" alt="Mohammed Aminoor Rahman" />
                         </div>
                         <div className="p-8 text-white text-2xl md:text-3xl lg:text-4xl">
-                            <p className="mt-2">Hi there! I'm Mohammed Aminoor Rahman, a Software Developer studying at Seneca Polytechnic.</p>
+                            <p className="mt-2">Hi there! I&apos;m Mohammed Aminoor Rahman, a Software Developer studying at Seneca Polytechnic.</p>
                             <p className="mt-2">Welcome to my website!</p>
                             <p className="mt-2">Explore more by scrolling down for insights about me.</p>
                         </div>

@@ -15,7 +15,7 @@ const pics = [
     '/image-3.png',
 ]
 
-export default function page() {
+export default function Page() {
 
 
 
@@ -47,7 +47,7 @@ export default function page() {
                     </div>
                     <p className="text-center mb-6">
                         <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span>
-                        &nbsp;is an innovative and secure data storage system developed during the Bell Geekfest Hackathon. It stands as a testament to the team's prowess in crafting a comprehensive solution that prioritizes user privacy and data security. Leveraging advanced technologies and a strategic blend of services, <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> provides users with a robust platform for safeguarding their digital assets.                    </p>
+                        &nbsp;is an innovative and secure data storage system developed during the Bell Geekfest Hackathon. It stands as a testament to the team&apos;s prowess in crafting a comprehensive solution that prioritizes user privacy and data security. Leveraging advanced technologies and a strategic blend of services, <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> provides users with a robust platform for safeguarding their digital assets.                    </p>
 
                     <div className="flex justify-center">
                         <h1 className="font-semibold text-2xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 p-4 md:p-8 text-center">
@@ -85,7 +85,7 @@ export default function page() {
                     </div>
 
                     <p className='text-center mb-4'><strong>Challenge: Limited Timeframe</strong></p>
-                    <p className='text-center mb-4'><strong>Solution:</strong> <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> was developed within the dynamic environment of a hackathon, showcasing the team's ability to efficiently address challenges and deliver a secure and functional solution within tight time constraints.</p>
+                    <p className='text-center mb-4'><strong>Solution:</strong> <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> was developed within the dynamic environment of a hackathon, showcasing the team&apos;s ability to efficiently address challenges and deliver a secure and functional solution within tight time constraints.</p>
 
                     <p className='text-center mb-4'><strong>Challenge: Security Assurance</strong></p>
                     <p className='text-center mb-4'><strong>Solution:</strong> The integration of AWS KMS, SSL encryption, and Helmet headers addresses security concerns, ensuring Lock-It provides an airtight defense against unauthorized access and potential vulnerabilities.</p>
@@ -143,7 +143,7 @@ export default function page() {
                     </div>
                     <p className="text-center mb-6">
                         <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span>
-                        &nbsp;is an innovative and secure data storage system developed during the Bell Geekfest Hackathon. It stands as a testament to the team's prowess in crafting a comprehensive solution that prioritizes user privacy and data security. Leveraging advanced technologies and a strategic blend of services, <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> provides users with a robust platform for safeguarding their digital assets.                    </p>
+                        &nbsp;is an innovative and secure data storage system developed during the Bell Geekfest Hackathon. It stands as a testament to the team&apos;s prowess in crafting a comprehensive solution that prioritizes user privacy and data security. Leveraging advanced technologies and a strategic blend of services, <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> provides users with a robust platform for safeguarding their digital assets.                    </p>
 
                     <div className="flex justify-center">
                         <h1 className="font-semibold text-2xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 p-4 md:p-8 text-center">
@@ -181,7 +181,7 @@ export default function page() {
                     </div>
 
                     <p className='text-center mb-4'><strong>Challenge: Limited Timeframe</strong></p>
-                    <p className='text-center mb-4'><strong>Solution:</strong> <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> was developed within the dynamic environment of a hackathon, showcasing the team's ability to efficiently address challenges and deliver a secure and functional solution within tight time constraints.</p>
+                    <p className='text-center mb-4'><strong>Solution:</strong> <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200">Lock-It</span> was developed within the dynamic environment of a hackathon, showcasing the team&apos;s ability to efficiently address challenges and deliver a secure and functional solution within tight time constraints.</p>
 
                     <p className='text-center mb-4'><strong>Challenge: Security Assurance</strong></p>
                     <p className='text-center mb-4'><strong>Solution:</strong> The integration of AWS KMS, SSL encryption, and Helmet headers addresses security concerns, ensuring Lock-It provides an airtight defense against unauthorized access and potential vulnerabilities.</p>

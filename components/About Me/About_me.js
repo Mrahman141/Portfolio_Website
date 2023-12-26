@@ -6,7 +6,7 @@ export default function About_me() {
             <div className="bg-Deep-Midnight-Blue min-h-screen w-full text-white pb-20">
                 <h1 className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-center font-bold pt-10'>About Me</h1>
                 <p className="text-base md:text-lg lg:text-xl xl:text-2xl pr-10 pl-8 pt-10">
-                    Hello Again! I'm Mohammed Aminoor Rahman, a Bangladeshi national born and raised in the vibrant and diverse setting of Qatar. Currently, I'm pursuing an Honours Bachelor of Technology in Software Development at Seneca Polytechnic in Ontario, Canada. My journey in the world of technology is fueled by a passion for innovation and a commitment to honing my skills in software development.
+                    Hello Again! I&apos;m Mohammed Aminoor Rahman, a Bangladeshi national born and raised in the vibrant and diverse setting of Qatar. Currently, I&apos;m pursuing an Honours Bachelor of Technology in Software Development at Seneca Polytechnic in Ontario, Canada. My journey in the world of technology is fueled by a passion for innovation and a commitment to honing my skills in software development.
                 </p>
                 <p className="text-base md:text-lg lg:text-xl xl:text-2xl pr-10 pl-8 pt-10">
                     Curious to know more about the skills I work with? Explore my comprehensive list of software-related skills below:

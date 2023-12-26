@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
 
-export default function page() {
+export default function Page() {
 
 
 
@@ -48,7 +48,7 @@ export default function page() {
                             Technologies used
                         </h1>
                     </div>
-                    <p className="text-center mb-4">At the core of <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-blue-500 to-gray-200">SeatSonic's</span> functionality here are the key technologies and concepts which include:</p>
+                    <p className="text-center mb-4">At the core of <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-blue-500 to-gray-200">SeatSonic&apos;s</span> functionality here are the key technologies and concepts which include:</p>
                     <ul className="list-disc list-inside mb-6 space-y-2">
                         <li>
                             <strong>Django:</strong> A high-level Python web framework for rapid development and pragmatic design.
@@ -77,7 +77,7 @@ export default function page() {
                     <ul className="mb-6">
                         <li>
                             <p className='text-center mb-4'><strong>Challenge: Simultaneously learning Python and Django during the project posed a significant challenge.</strong></p>
-                            <p className='text-center mb-4'><strong>Solution:</strong> Through an agile product engineering approach, we adopted a hands-on learning strategy. Regular practice and continuous iteration allowed us to grasp key concepts, ensuring a successful implementation of SeatSonic. Additionally, leveraging the Django framework's clean design principles facilitated a smoother learning curve.</p>
+                            <p className='text-center mb-4'><strong>Solution:</strong> Through an agile product engineering approach, we adopted a hands-on learning strategy. Regular practice and continuous iteration allowed us to grasp key concepts, ensuring a successful implementation of SeatSonic. Additionally, leveraging the Django framework&apos;s clean design principles facilitated a smoother learning curve.</p>
                         </li>
 
                         <li>
