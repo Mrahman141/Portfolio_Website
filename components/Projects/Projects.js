@@ -12,16 +12,16 @@ export default function Projects() {
                 <div className='space-y-10 mt-10 flex flex-col items-center px-8'>
 
                     <div id='Human_League' className="w-full md:w-2/3 lg:w-2/3 xl:w-2/3 h-auto md:h-72 flex relative rounded bg-gradient-to-r from-red-500 to-blue-500 p-1">
-                        <div className="rounded overflow-hidden bg-Night-Sky text-white p-4">
+                    <div className="rounded overflow-hidden bg-Night-Sky text-white p-4">
                             <div className="z-10 flex flex-col justify-evenly w-full h-full">
                                 <span className="text-2xl md:text-4xl lg:text-4xl xl:text-4xl font-bold">Human League</span>
                                 <p className="text-base md:text-2xl lg:text-2xl xl:text-2xl">
                                     Human League, my debut game developed using Unreal Engine 5, showcases my initiation into game design. Executed in collaboration with a skilled group, this project highlights our collective ability to harness advanced technology for an immersive gaming experience.
                                 </p>
                                 <Link href="/project/human_league" className="text-center text-base md:text-xl lg:text-xl xl:text-xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
-                                Learn More
+                                    Learn More
                                 </Link>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -33,9 +33,9 @@ export default function Projects() {
                                 <p className="text-base md:text-2xl lg:text-2xl xl:text-2xl">
                                     Lock-It is a state-of-the-art data storage solution prioritizing user privacy with top-tier encryption. Developed collaboratively, it serves as a testament to our collective expertise and commitment to delivering advanced security solutions.
                                 </p>
-                                <button className="text-base md:text-xl lg:text-xl xl:text-xl hover:from-[#0e5c6f] hover:via-[#5497ab] hover:to-gray-300 bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
+                                <Link href="/project/Lock_it" className="text-center text-base md:text-xl lg:text-xl xl:text-xl hover:from-[#0e5c6f] hover:via-[#5497ab] hover:to-gray-300 bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
                                     Learn more
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

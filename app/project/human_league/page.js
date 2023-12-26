@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import Carousel from '@/components/Carousel'
+import {useRouter} from 'next/navigation'
 
 const pics = [
     '/StartMenu.png',
@@ -12,7 +14,14 @@ const pics = [
     '/RedWin.png',
 ]
 
+
 export default function page() {
+
+    const router = useRouter();
+
+    const handleGoBack = () => {
+        router.back();
+    };
 
 
     return (
@@ -89,6 +98,10 @@ export default function page() {
                         The code for the project can be found on my Github repository&nbsp;
                         <a href="https://github.com/Mrahman141/HumanLeague" target="_blank" className="text-blue-500 underline">Here</a>
                     </p>
+                    <br/><br/>
+                    <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
+                        Go Back Home
+                    </button>
 
                 </div>
 
@@ -96,7 +109,7 @@ export default function page() {
                     <div className="rounded bg-gradient-to-r from-red-500 to-blue-500 p-1">
                         <Carousel autoSlide={true}>
                             {pics.map((x, index) => (
-                                <img key={index} src={x} className="" alt={`slide-${index}`}/>
+                                <img key={index} src={x} className="" alt={`slide-${index}`} />
                             ))}
                         </Carousel>
                     </div>
@@ -184,7 +197,10 @@ export default function page() {
                         The code for the project can be found on my Github repository&nbsp;
                         <a href="https://github.com/Mrahman141/HumanLeague" target="_blank" className="text-blue-500 underline">Here</a>
                     </p>
-
+                    <br/><br/>
+                    <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
+                        Go Back Home
+                    </button>
                 </div>
 
 

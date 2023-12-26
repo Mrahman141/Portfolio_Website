@@ -15,7 +15,7 @@ export default function Navbar() {
 
 
     useEffect(() => {
-        
+
         const handleScroll = () => {
             setScrollData(prevState => {
                 return {
@@ -24,7 +24,7 @@ export default function Navbar() {
                 }
             })
         }
-        
+
         window.addEventListener('scroll', handleScroll)
 
         return () => window.removeEventListener('scroll', handleScroll)
@@ -33,21 +33,22 @@ export default function Navbar() {
 
 
     useEffect(() => {
+
         // console.log(scrollData)
 
-        if(scrollData.y > 0 ) {
+        if (scrollData.y > 0) {
             setVisible(false);
         } else {
             setVisible(true);
         }
 
-        if(scrollData.y < scrollData.lastY) {
+        if (scrollData.y < scrollData.lastY) {
             setVisible(true);
         } else {
             setVisible(false);
         }
 
-        if(scrollData.y <= 0 &  scrollData.lastY <= 0) {
+        if (scrollData.y <= 0 & scrollData.lastY <= 0) {
             setVisible(true);
         }
 
@@ -57,7 +58,7 @@ export default function Navbar() {
 
     }, [scrollData])
 
-    
+
 
 
     // MAYBE CHANGE THE OPACITY DEPENDING ON OTHER CONTENTS HERE VVVVVVV bg-opacity-20 ALSO FIGURE OUT THE TRANSITION FOR MOBILE DROPDOWN

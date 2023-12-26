@@ -36,6 +36,7 @@ export default function About_me() {
                                 <li>Fetch API</li>
                                 <li>PostgreSQL</li>
                                 <li>MySQL</li>
+                                <li>JavaScript</li>
                                 <li>AJAX</li>
                                 <li>Bootstrap</li>
                                 <li>Django</li>
@@ -180,6 +181,7 @@ export default function About_me() {
                             <li>Fetch API</li>
                             <li>PostgreSQL</li>
                             <li>MySQL</li>
+                            <li>JavaScript</li>
                             <li>AJAX</li>
                             <li>Bootstrap</li>
                             <li>Django</li>

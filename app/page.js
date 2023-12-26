@@ -11,11 +11,11 @@ import Navbar from '@/components/Navbar/Navbar'
 export default function Main_Home() {
   return (
     <>
-      {/* <Navbar/>
+      <Navbar/>
       <Home />
       <div className='bg-gradient-to-b from-Midnight-Blue to-Deep-Midnight-Blue h-24'></div>
       <About_me/>
-      <div className='bg-gradient-to-b from-Deep-Midnight-Blue to-Shadowy-Indigo h-24'></div> */}
+      <div className='bg-gradient-to-b from-Deep-Midnight-Blue to-Shadowy-Indigo h-24'></div>
       <Projects/>
       <div className='bg-gradient-to-b from-Shadowy-Indigo to-Nocturnal-Indigo h-24'></div>
       <Contact/>
