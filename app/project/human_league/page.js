@@ -8,7 +8,7 @@ import Link from 'next/link'
 const pics = [
     '/StartMenu.png',
     '/LockerRoom.png',
-    '/Hallway.png',
+    '/hallway.png',
     '/Arena.png',
     '/BlueScoreLights.png',
     '/BlueWin.png',
