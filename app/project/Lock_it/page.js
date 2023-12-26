@@ -2,6 +2,8 @@
 import React from 'react'
 import Carousel from '@/components/Carousel'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
+
 
 
 
@@ -19,8 +21,9 @@ export default function page() {
 
     const router = useRouter();
 
-    const handleGoBack = () => {
-        router.back();
+    const handleGoBack = (e) => {
+        e.preventDefault();
+        router.push('/');
     };
 
 

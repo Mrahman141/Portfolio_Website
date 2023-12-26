@@ -47,9 +47,9 @@ export default function Projects() {
                                 <p className="text-base md:text-2xl lg:text-2xl xl:text-2xl">
                                     SeatSonic streamlines concert ticket sales for companies with its advanced management system, supporting multiple venues and emphasizing adaptability through agile product engineering. As my inaugural project, its success is a testament to collaborative efforts within a skilled group.
                                 </p>
-                                <button className="text-base md:text-xl lg:text-xl xl:text-xl hover:from-blue-700 hover:to-gray-300 bg-gradient-to-r from-blue-500 to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
+                                <Link href="/project/seatsonic" className="text-center text-base md:text-xl lg:text-xl xl:text-xl hover:from-blue-700 hover:to-gray-300 bg-gradient-to-r from-blue-500 to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
                                     Learn more
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
