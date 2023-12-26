@@ -107,11 +107,8 @@ export default function page() {
 
                 <div className="flex items-center w-1/2 fixed right-0 h-full px-8">
                     <div className="rounded bg-gradient-to-r from-red-500 to-blue-500 p-1">
-                        <Carousel autoSlide={true}>
-                            {pics.map((x, index) => (
-                                <img key={index} src={x} className="" alt={`slide-${index}`} />
-                            ))}
-                        </Carousel>
+                    <Carousel autoSlide={true} images={pics} />
+
                     </div>
                 </div>
             </div>
@@ -128,11 +125,8 @@ export default function page() {
 
                     <div className="flex items-center">
                         <div className="rounded bg-gradient-to-r from-red-500 to-blue-500 p-1">
-                            <Carousel autoSlide={true}>
-                                {pics.map((x, index) => (
-                                    <img key={index} src={x} className="" alt={`slide-${index}`} />
-                                ))}
-                            </Carousel>
+                        <Carousel autoSlide={true} images={pics} />
+
                         </div>
                     </div>
 
