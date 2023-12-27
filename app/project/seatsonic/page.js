@@ -20,9 +20,15 @@ export default function Page() {
         <>
             <div className='bg-Midnight-Blue min-h-screen w-full flex justify-center'>
 
+                
+
                 <div className="text-white p-8 text-base md:text-lg lg:text-xl xl:text-2xl pb-32">
 
-                    <div className="flex justify-center mb-8">
+                    <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:from-blue-700 hover:to-gray-300 bg-gradient-to-r from-blue-500 to-gray-200 to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
+                        Go Back Home
+                    </button>
+
+                    <div className="flex justify-center mt-8 mb-4">
                         <h1 className="text-4xl md:text-6xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-blue-500 to-gray-200 p-4 md:p-8 text-center">
                             SeatSonic
                         </h1>

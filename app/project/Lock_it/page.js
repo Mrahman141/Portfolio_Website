@@ -113,10 +113,14 @@ export default function Page() {
 
                 </div>
 
-                <div className="flex items-center w-1/2 fixed right-0 h-full px-8">
-                    <div className="rounded bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-white p-1">
-                    <Carousel autoSlide={true} images={pics} />
-
+                <div className="flex flex-col justify-center w-1/2 fixed right-0 h-full px-8">
+                    <div className="rounded bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-white p-1 mt-auto">
+                        <Carousel autoSlide={true} images={pics} />
+                    </div>
+                    <div className="mt-auto mb-32">
+                        <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:from-[#0e5c6f] hover:via-[#5497ab] hover:to-gray-300 bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
+                            Go Back Home
+                        </button>
                     </div>
                 </div>
             </div>
@@ -126,14 +130,18 @@ export default function Page() {
 
                 <div className="text-white p-8 text-base md:text-lg lg:text-xl xl:text-2xl pb-32">
 
-                    <div className="flex justify-center mb-8">
+                    <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:from-[#0e5c6f] hover:via-[#5497ab] hover:to-gray-300 bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
+                        Go Back Home
+                    </button>
+
+                    <div className="flex justify-center my-8">
                         <h1 className="text-4xl md:text-6xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 p-4 md:p-8 text-center">
                             Lock-it
                         </h1>
                     </div>
                     <div className="flex items-center">
                         <div className="rounded bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-white p-1">
-                        <Carousel autoSlide={true} images={pics} />
+                            <Carousel autoSlide={true} images={pics} />
                         </div>
                     </div>
                     <div className="flex justify-center">

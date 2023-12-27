@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Carousel from '@/components/Carousel'
-import {useRouter} from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
 
@@ -30,7 +30,7 @@ export default function Page() {
     return (
         <>
 
-            <div className='bg-Midnight-Blue min-h-screen w-full justify-between hidden laptop:flex'>
+            <div className='bg-Midnight-Blue min-h-screen w-full justify-between hidden laptop:flex '>
 
                 <div className="text-white w-1/2 p-4 text-base md:text-lg lg:text-xl xl:text-2xl pb-32">
 
@@ -101,26 +101,31 @@ export default function Page() {
                         The code for the project can be found on my Github repository&nbsp;
                         <a href="https://github.com/Mrahman141/HumanLeague" target="_blank" className="text-blue-500 underline">Here</a>
                     </p>
-                    <br/><br/>
-                    <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
-                        Go Back Home
-                    </button>
 
                 </div>
 
-                <div className="flex items-center w-1/2 fixed right-0 h-full px-8">
-                    <div className="rounded bg-gradient-to-r from-red-500 to-blue-500 p-1">
-                    <Carousel autoSlide={true} images={pics} />
-
+                <div className="flex flex-col justify-center w-1/2 fixed right-0 h-full px-8">
+                    <div className="rounded bg-gradient-to-r from-red-500 to-blue-500 p-1 mt-auto">
+                        <Carousel autoSlide={true} images={pics} />
+                    </div>
+                    <div className="mt-auto mb-32">
+                        <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
+                            Go Back Home
+                        </button>
                     </div>
                 </div>
+
             </div>
 
             <div className='bg-Midnight-Blue min-h-screen w-full flex justify-center laptop:hidden'>
 
                 <div className="text-white p-8 text-base md:text-lg lg:text-xl xl:text-2xl pb-32">
 
-                    <div className="flex justify-center mb-8">
+                    <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
+                        Go Back Home
+                    </button>
+
+                    <div className="flex justify-center my-8">
                         <h1 className="text-4xl md:text-6xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-red-500 to-blue-500 p-4 md:p-8 text-center">
                             Human League
                         </h1>
@@ -128,7 +133,7 @@ export default function Page() {
 
                     <div className="flex items-center">
                         <div className="rounded bg-gradient-to-r from-red-500 to-blue-500 p-1">
-                        <Carousel autoSlide={true} images={pics} />
+                            <Carousel autoSlide={true} images={pics} />
 
                         </div>
                     </div>
@@ -194,7 +199,7 @@ export default function Page() {
                         The code for the project can be found on my Github repository&nbsp;
                         <a href="https://github.com/Mrahman141/HumanLeague" target="_blank" className="text-blue-500 underline">Here</a>
                     </p>
-                    <br/><br/>
+                    <br /><br />
                     <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:bg-gradient-to-r hover:from-red-700 hover:to-blue-700 bg-gradient-to-r from-red-500 to-blue-500 rounded text-white font-semibold w-full p-3 mt-2">
                         Go Back Home
                     </button>
