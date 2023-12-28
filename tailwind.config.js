@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       screens: {
         'small': '640px',
+        'largeish': '767px',
 
         'laptop': '1440px',
   
@@ -30,6 +31,7 @@ module.exports = {
         '128': '32rem',
         '100': '27rem',
         '75': '17rem',
+        '77': '20rem',
       },
       colors: {
         'Midnight-Blue': '#0c0d2e',
