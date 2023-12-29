@@ -15,13 +15,6 @@ export async function POST(req) {
   let bio = data.bio
   let email = data.email
 
-//   const { name, email, bio } = req.body;
-
-  console.log('Received form data:');
-  console.log('Name:', name);
-  console.log('Email:', email);
-  console.log('Message:', bio);
-
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {

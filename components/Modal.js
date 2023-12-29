@@ -54,8 +54,6 @@ export default function Modal() {
 
             setLoading(true);
 
-            console.log('Form data before request:', formData);
-
             // Make a POST request to your backend server
             await axios.post('/api/sendemail', 
             {
@@ -72,8 +70,6 @@ export default function Modal() {
               
             setLoading(false);
 
-            console.log('Form data submitted:', formData);
-
             setSuccess(true);
 
             // Reset form data after successful submission if needed
@@ -85,7 +81,7 @@ export default function Modal() {
 
             setTimeout(() => {
                 router.push('/');
-            }, 2500);
+            }, 3000);
 
         } catch (error) {
             console.error('Error sending email:', error);
