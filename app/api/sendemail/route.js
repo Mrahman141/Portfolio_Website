@@ -26,7 +26,7 @@ export async function POST(req) {
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: process.env.EMAIL_USER,
-    subject: 'New Form Submission',
+    subject: 'Website Message',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${bio}`,
   };
 
