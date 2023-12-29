@@ -1,7 +1,6 @@
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 import { NextResponse } from "next/server";
-import { names } from './../../../.next/server/vendor-chunks/next';
 
 dotenv.config();
 
