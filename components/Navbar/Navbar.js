@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 
 
+
 export default function Navbar() {
 
     const [isNavOpen, setisNavOpen] = useState(false);
@@ -12,6 +13,17 @@ export default function Navbar() {
     });
     const [visible, setVisible] = useState(true);
 
+    
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+    
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        setisNavOpen(false);
+    };
+    
 
 
     useEffect(() => {
@@ -52,22 +64,19 @@ export default function Navbar() {
             setVisible(true);
         }
 
-        // if (scrollData.lastY === scrollData.y) { // this fixes the trembling
-        //     return;
-        // }
+
 
     }, [scrollData])
 
 
 
 
-    // MAYBE CHANGE THE OPACITY DEPENDING ON OTHER CONTENTS HERE VVVVVVV bg-opacity-20 ALSO FIGURE OUT THE TRANSITION FOR MOBILE DROPDOWN
     return (
         <nav id="navbar" className={` bg-Midnight-Blue  fixed w-full top-0 z-10 text-white ${visible ? ' translate-y-0 transition-all duration-500 ease-in-out' : ' -translate-y-full transition-all duration-500 ease-in-out'}`}>
             <div className="max-w-full  py-2.5 text-xl 24inch:text-2xl 27inch:text-2xl sm:text-xl">
                 <div className="flex justify-between">
                     <div className="ml-8">
-                        <a href="#Aminoor" className="font-semibold">Aminoor</a>
+                        <button onClick={() => scrollToSection('Home')} className="font-semibold">Aminoor</button>
                     </div>
 
 
@@ -94,21 +103,21 @@ export default function Navbar() {
                     </div>
 
                     <div className="hidden sm:flex space-x-5 justify-end mr-8">
-                        <a href="#Home" className="">Home</a>
-                        <a href="#AboutMe" className="">About Me</a>
-                        <a href="#Skills" className="">Skills</a>
-                        <a href="#Projects" className="">Projects</a>
-                        <a href="#Contact" className="">Contact</a>
+                        <button onClick={() => scrollToSection('Home')} className="">Home</button>
+                        <button onClick={() => scrollToSection('AboutMe')} className="">About Me</button>
+                        <button onClick={() => scrollToSection('AboutMe')} className="">Skills</button>
+                        <button onClick={() => scrollToSection('Projects')} className="">Projects</button>
+                        <button onClick={() => scrollToSection('Contact')} className="">Contact</button>
                     </div>
                 </div>
 
                 {isNavOpen && (
                     <div className={`sm:hidden pl-8 border-t-2 transform`}>
-                        <a href="#Home" className="block py-2">Home</a>
-                        <a href="#AboutMe" className="block py-2">About Me</a>
-                        <a href="#Skills" className="block py-2">Skills</a>
-                        <a href="#Projects" className="block py-2">Projects</a>
-                        <a href="#Contact" className="block py-2">Contact</a>
+                        <button onClick={() => scrollToSection('Home')} className="block py-2">Home</button>
+                        <button onClick={() => scrollToSection('AboutMe')} className="block py-2">About Me</button>
+                        <button onClick={() => scrollToSection('AboutMe')} className="block py-2">Skills</button>
+                        <button onClick={() => scrollToSection('Projects')} className="block py-2">Projects</button>
+                        <button onClick={() => scrollToSection('Contact')} className="block py-2">Contact</button>
                     </div>
                 )}
             </div>

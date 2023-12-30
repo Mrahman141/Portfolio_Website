@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Projects() {
     return (
         <>
-            <div className="bg-Shadowy-Indigo min-h-screen w-full text-white pb-20">
+            <div className="bg-Shadowy-Indigo min-h-screen w-full text-white pb-20 pt-5">
                 <h1 className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-center font-bold pt-10'>Projects</h1>
                 <p className="text-base md:text-lg lg:text-xl xl:text-2xl pr-10 pl-8 pt-10">Dive into a glimpse of my journey through hands-on projects that demonstrate my passion for software development. Each project is a testament to my skills, creativity, and problem-solving mindset. Explore the exciting world of code and innovation below, where every project tells a unique story of challenges conquered and solutions crafted.</p>
                 <p className="text-base md:text-lg lg:text-xl xl:text-2xl pr-10 pl-8 pt-10">Take a closer look at my project portfolio here, and let the code speak for itself!</p>

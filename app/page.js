@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import Home from '@/components/Home/Home'
 import About_me from '@/components/About Me/About_me'
@@ -9,16 +10,18 @@ import Navbar from '@/components/Navbar/Navbar'
 
 
 export default function Main_Home() {
+
+
   return (
     <>
       <Navbar/>
-      <Home />
+      <div id="Home"><Home/></div>
       <div className='bg-gradient-to-b from-Midnight-Blue to-Deep-Midnight-Blue h-24'></div>
-      <About_me/>
+      <div id="AboutMe"><About_me/></div>
       <div className='bg-gradient-to-b from-Deep-Midnight-Blue to-Shadowy-Indigo h-24'></div>
-      <Projects/>
+      <div id="Projects"><Projects/></div>
       <div className='bg-gradient-to-b from-Shadowy-Indigo to-Nocturnal-Indigo h-24'></div>
-      <Contact/>
+      <div id="Contact"><Contact/></div>      
     </>
   )
 }

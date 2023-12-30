@@ -18,7 +18,6 @@ const pics = [
 export default function Page() {
 
 
-
     const router = useRouter();
 
     const handleGoBack = (e) => {
@@ -103,14 +102,9 @@ export default function Page() {
                         </h1>
                     </div>
                     <p className="text-center">
-                        The code (NO LINK HERE) for the project can be found on my Github repository&nbsp;
-                        <a href="https://www.youtube.com/watch?v=CdZN8PI3MqM&list=RDCdZN8PI3MqM&start_radio=1" target="_blank" className="text-blue-500 underline">Here</a>
+                        The code for the project can be found on my Github repository&nbsp;
+                        <a href="https://github.com/Mrahman141/Team-BSD-Bell-Geekfest-Hackathon-2023" target="_blank" className="text-blue-500 underline">Here</a>
                     </p>
-                    <br /><br />
-                    <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:from-[#0e5c6f] hover:via-[#5497ab] hover:to-gray-300 bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
-                        Go Back Home
-                    </button>
-
                 </div>
 
                 <div className="flex flex-col justify-center w-1/2 fixed right-0 h-full px-8">
@@ -207,8 +201,8 @@ export default function Page() {
                         </h1>
                     </div>
                     <p className="text-center">
-                        The code (NO LINK HERE) for the project can be found on my Github repository&nbsp;
-                        <a href="https://www.youtube.com/watch?v=CdZN8PI3MqM&list=RDCdZN8PI3MqM&start_radio=1" target="_blank" className="text-blue-500 underline">Here</a>
+                        The code for the project can be found on my Github repository&nbsp;
+                        <a href="https://github.com/Mrahman141/Team-BSD-Bell-Geekfest-Hackathon-2023" target="_blank" className="text-blue-500 underline">Here</a>
                     </p>
                     <br /><br />
                     <button onClick={handleGoBack} className="text-center text-base md:text-2xl lg:text-2xl xl:text-2xl hover:from-[#0e5c6f] hover:via-[#5497ab] hover:to-gray-300 bg-gradient-to-r from-[#15859e] via-[#72c1d3] to-gray-200 rounded text-white font-semibold w-full p-3 mt-2">
